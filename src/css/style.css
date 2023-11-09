@@ -1,0 +1,46 @@
+.cards-wrapper {
+  margin-bottom: 10px;
+}
+
+.cards-wrapper__img {
+	cursor: pointer;
+	filter: grayscale(1);
+}
+
+.cards-wrapper__img.active {
+	filter: grayscale(0);
+}
+
+.cards-wrapper__img:not(:last-child) {
+  margin-right: 10px;
+}
+
+.input {
+	border: 1px solid grey;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-right: 7px;
+}
+
+.button {
+	background-color: green;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+p.valid {
+	color: green;
+}
+
+p.invalid {
+	color: red;
+}
